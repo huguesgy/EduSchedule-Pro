@@ -21,7 +21,7 @@ Pour que votre archive soit légère et envoyable par mail (quelques Mo au lieu 
 
 ## 4. Validation de la base de données
 - Vérifiez que le fichier `database/database.sql` est à jour.
-- Il doit contenir le planning **1ATC-A** (Algèbre 2, Électronique de puissance, etc.) et la table `system_config`.
+- Il doit contenir le planning **Standard** (Algèbre 2, Électronique de puissance, etc.) et la table `system_config`.
 
 ## 5. Structure recommandée de l'archive ZIP
 Votre fichier final (ex: `Nom_Prenom_EduSchedule.zip`) devrait contenir :

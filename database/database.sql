@@ -295,7 +295,7 @@ INSERT INTO classes (nom, filiere, niveau) VALUES
 ('L2-RST', 'Réseaux et Systèmes de Télécommunications', 'Licence 2'),
 ('L3-RST', 'Réseaux et Systèmes de Télécommunications', 'Licence 3');
 
--- Matières réelles 1ATC-A
+-- Matières réelles Standard
 INSERT INTO matieres (code, libelle, vh_total, coefficient) VALUES
 ('ALG2', 'Algèbre 2', 45, 3.0),
 ('ELEC_P', 'Électronique de puissance 1', 30, 2.5),

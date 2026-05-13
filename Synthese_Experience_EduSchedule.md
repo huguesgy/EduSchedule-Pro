@@ -27,7 +27,7 @@ Ce document résume les apprentissages, les défis et la démarche de réflexion
 ## 4. Exercice de réflexion tout au long du projet
 Ma réflexion a été guidée par deux principes majeurs :
 
-*   **Réalisme Académique** : Plutôt que de faire un emploi du temps générique, j'ai choisi de modéliser le planning réel de la **1ATC-A**. Cela a nécessité de réfléchir à la gestion des cours "chevauchant" plusieurs plages horaires et à la distinction visuelle des examens (DS).
+*   **Réalisme Académique** : Plutôt que de faire un emploi du temps générique, j'ai choisi de modéliser le planning réel de la **Standard**. Cela a nécessité de réfléchir à la gestion des cours "chevauchant" plusieurs plages horaires et à la distinction visuelle des examens (DS).
 *   **Flexibilité d'Administration** : J'ai réfléchi à la manière dont un administrateur non-technique utiliserait l'outil. C'est pourquoi j'ai intégré le contrôle du "Mode Système" (Libre/Réel) directement dans l'interface graphique, évitant ainsi d'avoir à modifier des fichiers de configuration complexes.
 *   **Intégrité des Données** : La mise en place de la double signature (Enseignant/Délégué) dans le cahier de texte a été pensée pour responsabiliser les acteurs et garantir que le contenu saisi correspond bien au cours dispensé.
 

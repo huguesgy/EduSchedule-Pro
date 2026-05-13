@@ -50,7 +50,7 @@ function Schedule() {
 
     const jours = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'];
     
-    // Définition des plages horaires standards selon la description 1ATC-A
+    // Définition des plages horaires standards selon la description Standard
     const timeSlots = [
         { label: 'Plage 1', start: '07:30', end: '09:30', description: '07h30 → 09h30' },
         { label: 'Plage 2', start: '10:00', end: '12:15', description: '10h00 → 12h15' },
@@ -89,7 +89,7 @@ function Schedule() {
         <div className="app-shell">
             <header className="page-top">
                 <div className="page-title">
-                    <span className="page-kicker">Planning hebdomadaire — 1ATC-A</span>
+                    <span className="page-kicker">Planning hebdomadaire — Standard</span>
                     <h1>Emploi du temps</h1>
                     <p className="page-intro">
                         Organisation en 3 plages horaires (07h30, 10h00, 15h00).
