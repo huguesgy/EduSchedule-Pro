@@ -38,10 +38,10 @@ function Login() {
 
     return (
         <div className="auth-shell">
-            <div className="neo-card auth-hero" style={{ padding: '3rem' }}>
-                <span className="page-kicker">Projet TP — Dr BÉRÉ</span>
-                <h1 style={{ fontSize: 'clamp(2.4rem, 5vw, 4rem)', marginBottom: '1.2rem' }}>
-                    EduSchedule<strong>Pro</strong>
+            <div className="neo-card auth-hero">
+                <h1>
+                    EduSchedule<br />
+                    <strong>Pro</strong>
                 </h1>
                 <p className="page-intro" style={{ maxWidth: '40ch' }}>
                     Gestion complète de l&apos;emploi du temps, pointage QR, cahier de texte et suivi des vacations.
@@ -54,7 +54,7 @@ function Login() {
                 </div>
             </div>
 
-            <div className="neo-card" style={{ padding: '3rem' }}>
+            <div className="neo-card">
                 <span className="page-kicker" style={{ background: 'var(--primary-color)' }}>Connexion</span>
                 <h2 style={{ marginBottom: '0.5rem' }}>Se connecter</h2>
                 <p className="page-intro" style={{ marginBottom: '2rem' }}>
@@ -90,7 +90,7 @@ function Login() {
                 </form>
 
                 {showQuickAccess && (
-                    <div style={{ marginTop: '2rem', borderTop: '1px solid var(--border-color)', paddingTop: '1.5rem' }}>
+                    <div style={{ marginTop: '2rem', borderTop: '1px solid var(--border-color)' }}>
                         <p style={{ fontSize: '0.8rem', opacity: 0.7, marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                             Accès rapides (Mode Test)
                         </p>

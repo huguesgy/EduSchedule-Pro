@@ -43,7 +43,7 @@ def generate_report():
     story.append(Paragraph("Établissement : ITRST", styles['Normal']))
     story.append(Paragraph("Année Universitaire : 2025-2026", styles['Normal']))
     story.append(Spacer(1, 2 * inch))
-    story.append(Paragraph("Document préparé pour : Dr Wend-Panga Cédric BÉRÉ", styles['Normal']))
+    story.append(Paragraph("Document préparé pour : Administration ITRST", styles['Normal']))
     story.append(PageBreak())
     
     # --- 1. Introduction ---

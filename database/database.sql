@@ -1,7 +1,7 @@
 -- ===============================================================
 -- Script SQL pour EduSchedule Pro
 -- Version 3.0 — Données complètes pour démo soutenance
--- ISGE-RST — Année Universitaire 2025-2026
+-- ISGE-BF — Année Universitaire 2025-2026
 -- ===============================================================
 
 CREATE DATABASE IF NOT EXISTS eduschedule_db;
@@ -277,7 +277,7 @@ CREATE TABLE validations (
 
 -- Utilisateurs (11 comptes : 1 admin, 5 enseignants, 2 délégués, 1 surveillant, 1 comptable, 1 étudiant)
 INSERT INTO utilisateurs (nom, prenom, email, mot_de_passe, role) VALUES
-('BERE', 'Cédric', 'admin@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'admin'),
+('ADMIN', 'Système', 'admin@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'admin'),
 ('TRAORE', 'Ali', 'prof1@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'enseignant'),
 ('KABORE', 'Fatimata', 'prof2@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'enseignant'),
 ('SAWADOGO', 'Ibrahim', 'prof3@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'enseignant'),
@@ -313,7 +313,7 @@ INSERT INTO salles (nom, capacite, equipements, batiment) VALUES
 
 -- Enseignants réels
 INSERT INTO enseignants (user_id, specialite, statut, taux_horaire) VALUES
-(1, 'Mathématiques', 'permanent', 25000.00), -- Pr BERE Frédéric (lié à admin pour test)
+(1, 'Mathématiques', 'permanent', 25000.00), -- Administrateur (lié à admin pour test)
 (2, 'Électronique', 'vacataire', 12000.00),  -- M. BONKOUNGOU Amadou
 (3, 'Physique', 'permanent', 15000.00),      -- M. OUEDRAOGO Salifou
 (4, 'Informatique', 'vacataire', 12000.00),  -- Mme BAMBARA

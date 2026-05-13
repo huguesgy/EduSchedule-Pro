@@ -12,7 +12,7 @@
 
 ## 📝 Présentation du Projet
 
-**EduSchedule Pro** est une solution complète de gestion des présences et des vacations pour les établissements universitaires. Développé pour répondre aux contraintes réelles de l'**ISGE-RST**, le système automatise le flux de travail depuis la planification des cours jusqu'à la génération des rapports de paiement.
+**EduSchedule Pro** est une solution complète de gestion des présences et des vacations pour les établissements universitaires. Développé pour répondre aux contraintes réelles de l'**ISGE-BF**, le système automatise le flux de travail depuis la planification des cours jusqu'à la génération des rapports de paiement.
 
 ### 🌟 Fonctionnalités Clés
 
@@ -53,8 +53,8 @@
 ## 🧪 Guide de Test & Démonstration
 
 ### Comptes de Test (Mot de passe : `password`)
-- **Administrateur** : `admin@itrst.bf`
-- **Professeur (Pr BERE)** : `prof1@itrst.bf`
+- **Administrateur (Système)** : `admin@itrst.bf`
+- **Professeur (Référent)** : `prof1@itrst.bf`
 - **Délégué** : `delegue1@itrst.bf`
 
 ### ⚙️ Contrôle du Mode Système (Nouveau)
@@ -82,6 +82,6 @@ L'application reproduit fidèlement l'organisation académique :
 ---
 
 <div align="center">
-  <p>Développé pour l'ISGE-RST — Année Universitaire 2025-2026</p>
-  <p><strong>Projet TP — Sous la direction du Dr BÉRÉ</strong></p>
+  <p>Développé pour l'ISGE-BF — Année Universitaire 2025-2026</p>
+  <p><strong>Projet TP — Filière RST</strong></p>
 </div>
