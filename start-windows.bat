@@ -28,7 +28,7 @@ if %errorlevel% neq 0 (
 
 echo [1/2] Lancement du BACKEND (PHP Server)...
 :: Lance PHP dans une nouvelle fenêtre console
-start "EduSchedule - Backend" cmd /k "echo Lancement du Backend sur localhost:8000... && php -S localhost:8000 -t backend/api"
+start "EduSchedule - Backend" cmd /k "echo Lancement du Backend sur 127.0.0.1:8000... && php -S 127.0.0.1:8000 -t backend"
 
 echo [2/2] Lancement du FRONTEND (React/Vite)...
 :: Lance NPM dans une nouvelle fenêtre console

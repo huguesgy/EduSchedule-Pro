@@ -42,11 +42,28 @@
 - Node.js 20+ & npm
 - Serveur MariaDB/MySQL
 
-### 2. Configuration Rapide
+### 2. Démarrage Rapide
+
+#### Sur Linux ou macOS (Professeur)
+Ouvrez un terminal dans le dossier du projet et lancez :
 ```bash
+chmod +x start-dev.sh
 ./start-dev.sh --install --reset-db
 ```
-*Cette commande installe les dépendances et initialise la base de données avec un planning type.*
+
+#### Sur Windows
+Lancez simplement le fichier :
+```bash
+start-windows.bat
+```
+
+---
+
+## 🛠️ Dépannage (Erreur de connexion)
+Si vous voyez "Erreur de connexion" sur la page de Login :
+1. **Serveur MySQL** : Vérifiez que votre serveur MySQL (XAMPP, WAMP ou MAMP) est bien démarré.
+2. **Base de données** : Assurez-vous d'avoir créé la base `eduschedule_db` et l'utilisateur avec les accès définis dans le fichier `.env`.
+3. **Ports** : Vérifiez que le port 8000 (Backend) et 5173 (Frontend) ne sont pas utilisés par une autre application.
 
 ---
 
