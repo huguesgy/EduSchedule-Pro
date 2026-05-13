@@ -12,6 +12,17 @@ env/
 Thumbs.db
 .superpowers/
 .codex
+.gemini/
+.system_generated/
+artifacts/
+*.pdf
+*.docx
+*.zip
+*.txt
+!README.md
+!requirements.txt
+!composer.json
+!package.json
 
 # Project Specific
 .runtime/
