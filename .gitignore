@@ -1,0 +1,27 @@
+# Dependencies
+frontend/node_modules/
+backend/vendor/
+.venv/
+venv/
+env/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.superpowers/
+.codex
+
+# Project Specific
+.runtime/
+EduPro.zip
+*.log
+
+# Environment
+.env
+.env.local
+
+# Build outputs
+frontend/dist/
+frontend/build/
