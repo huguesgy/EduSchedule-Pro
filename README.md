@@ -18,7 +18,7 @@
 
 | Fonctionnalité | Description Technique |
 | :--- | :--- |
-| **Planning 1ATC-A** | Structure spécifique en 3 plages (07h30, 10h00, 15h00) avec gestion des TP par groupes et DS grisés. |
+| **Planning Académique** | Structure flexible en 3 plages (07h30, 10h00, 15h00) avec gestion des TP par groupes et DS grisés. |
 | **Pointage QR Sécurisé** | Validation temporelle stricte (±15 min) et génération de token via HMAC-SHA256. |
 | **Alerte Retard** | Notification automatique à l'administration si le pointage a lieu plus de 5 minutes après l'heure prévue. |
 | **Cahier de Texte** | Signature numérique double (Enseignant/Délégué) pour valider le contenu des cours. |
@@ -46,7 +46,7 @@
 ```bash
 ./start-dev.sh --install --reset-db
 ```
-*Cette commande installe les dépendances et initialise la base de données avec le planning **1ATC-A**.*
+*Cette commande installe les dépendances et initialise la base de données avec un planning type.*
 
 ---
 
@@ -71,7 +71,7 @@ L'application propose deux modes de fonctionnement commutables en un clic depuis
 
 ---
 
-## 📊 Structure de l'Emploi du Temps (Conformité 1ATC-A)
+## 📊 Structure de l'Emploi du Temps
 
 L'application reproduit fidèlement l'organisation académique :
 - **Plage 1** : 07h30 → 09h30

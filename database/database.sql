@@ -320,7 +320,7 @@ INSERT INTO enseignants (user_id, specialite, statut, taux_horaire) VALUES
 (5, 'Réseaux', 'vacataire', 12000.00),       -- M. COULIBALY Moussa
 (6, 'Gestion', 'permanent', 15000.00);      -- M. GNADA Justin
 
--- Emploi du temps réel 1ATC-A (L1-RST)
+-- Emploi du temps réel (Exemple L1-RST)
 INSERT INTO emploi_temps (classe_id, matiere_id, enseignant_id, salle_id, jour, heure_debut, heure_fin, type_seance, groupe) VALUES
 -- Lundi (1)
 (1, 1, 1, 1, 1, '07:30:00', '12:15:00', 'Cours', NULL),
