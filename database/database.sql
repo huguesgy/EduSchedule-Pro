@@ -277,17 +277,17 @@ CREATE TABLE validations (
 
 -- Utilisateurs (11 comptes : 1 admin, 5 enseignants, 2 délégués, 1 surveillant, 1 comptable, 1 étudiant)
 INSERT INTO utilisateurs (nom, prenom, email, mot_de_passe, role) VALUES
-('ADMIN', 'Système', 'admin@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'admin'),
-('TRAORE', 'Ali', 'prof1@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'enseignant'),
-('KABORE', 'Fatimata', 'prof2@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'enseignant'),
-('SAWADOGO', 'Ibrahim', 'prof3@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'enseignant'),
-('CONGO', 'Aminata', 'prof4@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'enseignant'),
-('ILBOUDO', 'Patrick', 'prof5@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'enseignant'),
-('OUEDRAOGO', 'Sali', 'delegue1@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'delegue'),
-('COMPAORE', 'Adama', 'delegue2@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'delegue'),
-('ZONGO', 'Jean', 'surveillant@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'surveillant'),
-('DIALLO', 'Moussa', 'comptable@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'comptable'),
-('SOME', 'Boukary', 'etudiant@itrst.bf', '$2y$12$lvSnL0TZUEkjBkalcpdGwOQ19klE5DUarjHwI7S5WbxzsDhU6afmS', 'etudiant');
+('ADMIN', 'Système', 'admin@itrst.bf', '$2y$10$HIFf.7b8wqDNeSFlJvyLOeIrWceowHA4HKEBBhkJyacpXOBBuOLXG', 'admin'),
+('TRAORE', 'Ali', 'prof1@itrst.bf', '$2y$10$HIFf.7b8wqDNeSFlJvyLOeIrWceowHA4HKEBBhkJyacpXOBBuOLXG', 'enseignant'),
+('KABORE', 'Fatimata', 'prof2@itrst.bf', '$2y$10$HIFf.7b8wqDNeSFlJvyLOeIrWceowHA4HKEBBhkJyacpXOBBuOLXG', 'enseignant'),
+('SAWADOGO', 'Ibrahim', 'prof3@itrst.bf', '$2y$10$HIFf.7b8wqDNeSFlJvyLOeIrWceowHA4HKEBBhkJyacpXOBBuOLXG', 'enseignant'),
+('CONGO', 'Aminata', 'prof4@itrst.bf', '$2y$10$HIFf.7b8wqDNeSFlJvyLOeIrWceowHA4HKEBBhkJyacpXOBBuOLXG', 'enseignant'),
+('ILBOUDO', 'Patrick', 'prof5@itrst.bf', '$2y$10$HIFf.7b8wqDNeSFlJvyLOeIrWceowHA4HKEBBhkJyacpXOBBuOLXG', 'enseignant'),
+('OUEDRAOGO', 'Sali', 'delegue1@itrst.bf', '$2y$10$HIFf.7b8wqDNeSFlJvyLOeIrWceowHA4HKEBBhkJyacpXOBBuOLXG', 'delegue'),
+('COMPAORE', 'Adama', 'delegue2@itrst.bf', '$2y$10$HIFf.7b8wqDNeSFlJvyLOeIrWceowHA4HKEBBhkJyacpXOBBuOLXG', 'delegue'),
+('ZONGO', 'Jean', 'surveillant@itrst.bf', '$2y$10$HIFf.7b8wqDNeSFlJvyLOeIrWceowHA4HKEBBhkJyacpXOBBuOLXG', 'surveillant'),
+('DIALLO', 'Moussa', 'comptable@itrst.bf', '$2y$10$HIFf.7b8wqDNeSFlJvyLOeIrWceowHA4HKEBBhkJyacpXOBBuOLXG', 'comptable'),
+('SOME', 'Boukary', 'etudiant@itrst.bf', '$2y$10$HIFf.7b8wqDNeSFlJvyLOeIrWceowHA4HKEBBhkJyacpXOBBuOLXG', 'etudiant');
 
 -- Classes (3 classes comme demandé)
 INSERT INTO classes (nom, filiere, niveau) VALUES
